@@ -10,6 +10,14 @@ $('.slider').slick({
   draggable: false,
     responsive: [
     {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false
+      }
+    },
+    {
       breakpoint: 769,
       settings: {
         slidesToShow: 1,
