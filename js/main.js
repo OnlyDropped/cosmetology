@@ -19,10 +19,11 @@ $('.slider').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 426,
       settings: {
-        //slidesToShow: 2,
-        //slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false
       }
     },
     {
